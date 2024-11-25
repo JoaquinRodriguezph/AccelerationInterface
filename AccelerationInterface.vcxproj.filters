@@ -24,4 +24,18 @@
       <Filter>Source Files</Filter>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Downloads\input_10.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\Downloads\input_100.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\Downloads\input_1000.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\Downloads\input_100000.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
