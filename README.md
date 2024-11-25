@@ -55,6 +55,6 @@ This project analyzes acceleration data from various input files and measures pe
 Below is a video explaining the C and Assembly code as well as displaying the results.
 
 <video controls width="600">
-  <source src="Video_Explaining_C_And_Assembly_Code.mp4" type="video/mp4">
+  <source src="Video Explaining C And Assembly Code + Displaying Of Compilation And Execution Of Program Proper.mp4" type="video/mp4">
   Your browser does not support the video tag. You can [download the video here](Video_Explaining_C_And_Assembly_Code.mp4).
 </video>
