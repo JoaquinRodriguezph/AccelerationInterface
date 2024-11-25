@@ -1,5 +1,7 @@
 # Performance Statistics and Results
 
+**In Fulfillment of LBYARCH by Rodriguez, Joaquin Andres Diolola and Trajano, Keisha Nicole Santos**
+
 This project analyzes acceleration data from various input files and measures performance. Below are the performance statistics and the visual results for each dataset.
 
 ## Performance Statistics
