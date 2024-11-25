@@ -6,12 +6,6 @@
 
 extern void calculate_acceleration(float* matrix, int rows, int* output);
 
-// Function to generate random float between min and max
-float random_float(float min, float max) {
-    float scale = rand() / (float)RAND_MAX;
-    return min + scale * (max - min);
-}
-
 // Function to verify results
 void verify_results(float* matrix, int* output, int rows) {
     const float conversion = 0.277777778f; // 1000/3600 for km/h to m/s

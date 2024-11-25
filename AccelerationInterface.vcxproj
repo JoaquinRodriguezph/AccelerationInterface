@@ -138,12 +138,6 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">acceleration.obj</Outputs>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\Downloads\input_10.txt" />
-    <Text Include="..\..\..\Downloads\input_100.txt" />
-    <Text Include="..\..\..\Downloads\input_1000.txt" />
-    <Text Include="..\..\..\Downloads\input_100000.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
