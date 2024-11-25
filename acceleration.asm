@@ -1,4 +1,5 @@
 section .data
+    align 4
     conversion_factor dd 0.277777778  ; 1000/3600 for km/h to m/s conversion
 
 section .text
@@ -22,9 +23,9 @@ calculate_acceleration:
     ; 1000/3600 = 0.277777778 (for km/h to m/s conversion)
     movss xmm7, dword [rel conversion_factor]
     
+    ; Process each car
     xor rbx, rbx                    ; Initialize counter
- 
-; Process each car
+    
 .loop:
     cmp rbx, rdx                    ; Compare counter with number of rows
     jge .done                       ; If counter >= rows, we're done
