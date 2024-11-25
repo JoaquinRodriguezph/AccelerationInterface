@@ -1,5 +1,4 @@
 section .data
-    align 4
     conversion_factor dd 0.277777778  ; 1000/3600 for km/h to m/s conversion
 
 section .text
