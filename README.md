@@ -47,3 +47,14 @@ This project analyzes acceleration data from various input files and measures pe
 - **Average time per row:** 0.0007 microseconds
 
 ![Input_10000 Results](Input_10000_results.png)
+
+---
+
+## Video Explanation
+
+Below is a video explaining the C and Assembly code as well as displaying the results.
+
+<video controls width="600">
+  <source src="Video_Explaining_C_And_Assembly_Code.mp4" type="video/mp4">
+  Your browser does not support the video tag. You can [download the video here](Video_Explaining_C_And_Assembly_Code.mp4).
+</video>
